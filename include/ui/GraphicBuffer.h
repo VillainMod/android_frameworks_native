@@ -67,7 +67,12 @@ public:
 #ifdef SAMSUNG_CODEC_SUPPORT
         USAGE_HW_FIMC1          = GRALLOC_USAGE_HW_FIMC1,
 #endif
+#ifndef EXYNOS4_ENHANCEMENTS
         USAGE_HW_MASK           = GRALLOC_USAGE_HW_MASK
+#else
+        USAGE_HW_MASK           = GRALLOC_USAGE_HW_MASK,
+        USAVE_HW_FIMC1          = GRALLOC_USAGE_HW_FIMC1
+#endif
     };
 
     GraphicBuffer();
