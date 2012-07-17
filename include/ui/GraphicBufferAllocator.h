@@ -56,12 +56,6 @@ public:
         USAGE_HW_TEXTURE        = GRALLOC_USAGE_HW_TEXTURE,
         USAGE_HW_RENDER         = GRALLOC_USAGE_HW_RENDER,
         USAGE_HW_2D             = GRALLOC_USAGE_HW_2D,
-<<<<<<< HEAD
-#ifdef SAMSUNG_CODEC_SUPPORT
-        USAGE_HW_FIMC1          = GRALLOC_USAGE_HW_FIMC1,
-#endif
-=======
->>>>>>> 673738b... Add Samsung OMX and Color Format support (1/2)
 #ifndef EXYNOS4_ENHANCEMENTS
         USAGE_HW_MASK           = GRALLOC_USAGE_HW_MASK
 #else
